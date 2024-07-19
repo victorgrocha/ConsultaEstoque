@@ -58,7 +58,7 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
@@ -72,7 +72,7 @@ class LoginPage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                Text(
+                const Text(
                   'ConsultaEstoque',
                   style: TextStyle(
                     fontSize: 30,
@@ -81,24 +81,24 @@ class LoginPage extends StatelessWidget {
                   ),
                   textAlign: TextAlign.center,
                 ),
-                SizedBox(height: 20),
+                const SizedBox(height: 20),
                 TextFormField(
-                  decoration: InputDecoration(
+                  decoration: const InputDecoration(
                     labelText: 'Usuário',
                     filled: true,
                     fillColor: Colors.white,
                   ),
                 ),
-                SizedBox(height: 10),
+                const SizedBox(height: 10),
                 TextFormField(
                   obscureText: true,
-                  decoration: InputDecoration(
+                  decoration: const InputDecoration(
                     labelText: 'Senha',
                     filled: true,
                     fillColor: Colors.white,
                   ),
                 ),
-                SizedBox(height: 20),
+                const SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: () {
                     final authProvider = context.read<AuthProvider>();
@@ -118,14 +118,14 @@ class LoginPage extends StatelessWidget {
                           .setErrorMessage('Usuário ou senha inválidos');
                     }
                   },
-                  child: Text('Entrar'),
+                  child: const Text('Entrar'),
                 ),
-                SizedBox(height: 10),
+                const SizedBox(height: 10),
                 TextButton(
                   onPressed: () {
                     // Adicione aqui a navegação para a tela de cadastro
                   },
-                  child: Text(
+                  child: const Text(
                     'Criar uma conta',
                     style: TextStyle(color: Colors.white),
                   ),
@@ -135,7 +135,7 @@ class LoginPage extends StatelessWidget {
                     padding: const EdgeInsets.all(8.0),
                     child: Text(
                       context.watch<AuthProvider>().errorMessage!,
-                      style: TextStyle(color: Colors.red),
+                      style: const TextStyle(color: Colors.red),
                     ),
                   ),
               ],
