@@ -21,11 +21,11 @@ Consulta Estoque é um aplicativo para dispositivos Android desenvolvido em Flut
 
 ## Tecnologias Utilizadas
 
-Frontend: Flutter
-Backend: Delphi
-Banco de Dados: Firebird
-Comunicação: API REST
-IDE: VSCode
+- Frontend: Flutter
+- Backend: Delphi
+- Banco de Dados: Firebird
+- Comunicação: API REST
+- IDE: VSCode
 
 ## Público-Alvo
 
