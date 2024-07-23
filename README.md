@@ -14,7 +14,9 @@ Consulta Estoque é um aplicativo para dispositivos Android desenvolvido em Flut
  ## Como Funciona
 
 1- Configuração Inicial: O usuário deve estar conectado na mesma rede do servidor do sistema ERP feito em Delphi. Na primeira utilização, será necessário informar o IP do servidor.
+
 2- Consulta de Produtos: Após configurar o IP do servidor, o usuário pode consultar produtos facilmente através do aplicativo.
+
 3- Alteração de Informações: Com o aplicativo, é possível alterar informações de produtos diretamente do celular, sem a necessidade de acessar um computador.
 
 ## Tecnologias Utilizadas
